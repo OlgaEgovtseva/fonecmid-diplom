@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abb77e69-0b69-47d4-bfdf-f7ba9f071b6d">
+  <producedTypes>
+    <selectionType typeId="118c1762-59b1-4cf3-bf03-ef135f1df931" valueTypeId="d0c6acaa-68f8-4459-9748-a5fd583ddc99"/>
+    <listType typeId="b456f903-f387-4199-82bb-7e3f54b127a3" valueTypeId="c8b959a2-8d58-41e7-9d87-0b772f4bbffc"/>
+    <managerType typeId="2d7bab6d-1ce7-45f9-a5be-f0bc56ef3890" valueTypeId="38291655-9433-4ec5-9108-384828c5a1b1"/>
+    <recordSetType typeId="224b5063-9796-4880-a1a4-bd2b634c99b8" valueTypeId="c9400d41-289c-46ad-b2ae-7f60de626031"/>
+    <recordKeyType typeId="b730279a-7d8e-4200-b854-b6cc365d64a9" valueTypeId="6c017402-2e5c-4356-88b9-cf68c6a01921"/>
+    <recordType typeId="62b2e6b7-e9f4-4483-b198-ce543a3ba1c1" valueTypeId="a9e0669b-b957-47ce-9417-c2ec17a638b7"/>
+  </producedTypes>
+  <name>ВКМ_ВыполненныеКлиентуРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполненные клиенту работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c76944a9-e761-4b30-930a-86a225bac52c">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8c3e0063-44d1-4630-b2a5-f168078468b9">
+    <name>СуммаКОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма к оплате</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e9a8789f-11e6-4904-bcb1-31af19990e14">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="93d14584-9e24-42d0-8c50-785168aef381">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

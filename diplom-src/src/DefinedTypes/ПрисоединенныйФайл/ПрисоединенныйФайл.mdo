@@ -11,6 +11,7 @@
   <type>
     <types>CatalogRef.ДоговорыКонтрагентовПрисоединенныеФайлы</types>
     <types>CatalogRef.РеализацияТоваровУслугПрисоединенныеФайлы</types>
+    <types>CatalogRef.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</types>
     <types>CatalogRef.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
     <types>CatalogRef.ЗаказПокупателяПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>

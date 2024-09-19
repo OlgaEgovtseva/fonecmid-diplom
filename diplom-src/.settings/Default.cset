@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "settings": {
+    "md-legacy-emf-check": {
+      "enabled": false
+    },
+    "data-composition-conditional-appearance-use": {
+      "enabled": false
+    },
+    "md-list-object-presentation": {
+      "enabled": false
+    }
+  }
+}

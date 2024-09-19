@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aabb3e9c-bc8e-4fc9-a5ed-644d64405106">
+  <producedTypes>
+    <objectType typeId="b009abcf-33b6-4d20-b929-dfb28151ec3c" valueTypeId="c0a0be2b-62d6-4286-ba7e-900cdb80f128"/>
+    <managerType typeId="ea933cce-3c6d-4d1f-a146-ed016bfcef27" valueTypeId="48282bee-1c61-43ca-91f1-ba90c74ea0c4"/>
+  </producedTypes>
+  <name>ВКМ_МассовоеСозданиеАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовое создание актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
+  <attributes uuid="0b39b449-7559-4a1b-a3f1-d4b5adb8ce1a">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="07b68401-7d79-4a25-850a-b920b7f2c384">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f226b966-148c-4039-be50-d8176f8145f0">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="2a635a76-915a-470a-b372-b0565d8978d1">
+    <producedTypes>
+      <objectType typeId="79d6f034-d967-4177-a6f4-895a189fddbc" valueTypeId="55e939fa-f88c-4e45-85c0-b0b89200d672"/>
+      <rowType typeId="d62bd97c-76b1-43ab-ac49-228f37af1192" valueTypeId="a2836753-f30e-43ec-9653-cd3f1a770f4d"/>
+    </producedTypes>
+    <name>ДоговорыИРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договоры и реализации</value>
+    </synonym>
+    <attributes uuid="0f69d6ec-6bc5-459e-9f37-5b3942424073">
+      <name>Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c6d9f193-8b3f-4b54-a439-bf047cdc744d">
+      <name>РеализацияТоваровУслуг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реализация товаров и услуг</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="72c8c731-b75e-42d3-a400-4e14f0373ea6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="20532225-f6bd-44cc-abcb-5936023d5424">
+    <name>ВыборСтандартногоПериодаМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор стандартного периода месяц</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

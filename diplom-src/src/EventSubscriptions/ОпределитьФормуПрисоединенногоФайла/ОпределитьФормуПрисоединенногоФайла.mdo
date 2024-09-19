@@ -9,6 +9,7 @@
   <source>
     <types>CatalogManager.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
     <types>CatalogManager.КонтрагентыПрисоединенныеФайлы</types>
+    <types>CatalogManager.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</types>
     <types>CatalogManager.РеализацияТоваровУслугПрисоединенныеФайлы</types>
     <types>CatalogManager.ДоговорыКонтрагентовПрисоединенныеФайлы</types>
     <types>CatalogManager.ОрганизацииПрисоединенныеФайлы</types>

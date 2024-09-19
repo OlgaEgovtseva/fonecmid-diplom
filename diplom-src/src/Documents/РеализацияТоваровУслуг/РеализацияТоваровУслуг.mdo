@@ -57,6 +57,11 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
@@ -128,12 +133,6 @@
       <name>Отбор.Организация</name>
       <field>Document.РеализацияТоваровУслуг.Attribute.Организация</field>
     </choiceParameterLinks>
-    <choiceParameters>
-      <name>Отбор.ВидДоговора</name>
-      <value xsi:type="core:ReferenceValue">
-        <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.Покупатель</value>
-      </value>
-    </choiceParameters>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -410,4 +409,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="6a5bc64b-9c09-4f53-8300-62f63b6e6531">
+    <name>ВКМ_ПФ_MXL_АктОбОказанныхУслугах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт об оказанных услугах</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

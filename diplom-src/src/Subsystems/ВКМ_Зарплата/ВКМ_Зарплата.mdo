@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a68f4da-3b93-4e1e-b143-7c3e1f73b940">
+  <name>ВКМ_Зарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИконкаНетология</picture>
+  </picture>
+  <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>Role.ВКМ_РасчетЗП</content>
+  <content>Role.ВКМ_ГрафикОтпусков</content>
+  <content>Role.ВКМ_КадровикРасчетчик</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>InformationRegister.ВКМ_ГрафикОтпусков</content>
+</mdclass:Subsystem>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efa89d75-d835-486c-815c-c88cecb6dba3">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИконкаНетология</picture>
+  </picture>
+  <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Catalog.ВКМ_УведомленияТелеграм_БотуДляОтправки</content>
+  <content>DataProcessor.ВКМ_КалендарьСпециалистов</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Role.ВКМ_МассовоеСозданиеДокРеализации</content>
+  <content>Role.ВКМ_Специалист</content>
+  <content>Role.ВКМ_Бухгалтер</content>
+</mdclass:Subsystem>
